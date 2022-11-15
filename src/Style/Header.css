@@ -75,3 +75,27 @@
   color: #57a342;
   padding: 18px;
 }
+
+@media screen and ( max-width : 780px ) {
+
+  .gamePage {
+    padding: 1rem;
+  }
+
+  .logoHeader {
+    visibility: collapse;
+
+  }
+
+  .score {
+    height: 2rem;
+    margin-left: 12rem;
+    margin-right: 50px;
+    position: absolute;
+  }
+
+  .header {
+    display: flexbox;
+
+  }
+}
